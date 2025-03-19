@@ -1,0 +1,16 @@
+@use "../mocha.scss";
+
+@mixin common {
+  color: white;
+  background: mocha.$base;
+  border-width: 0px;
+  box-shadow: none;
+
+  &:hover {
+    color: mocha.$maroon;
+    background: mocha.$base;
+    box-shadow: none;
+    label { color: mocha.$maroon;}
+  }
+  
+}

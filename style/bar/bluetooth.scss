@@ -1,0 +1,13 @@
+@use "button-bar.scss";
+
+.Bluetooth {
+  @include button-bar.common;
+  border-radius: 20px 10px 10px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  label {
+    font-size: 1.3em;
+  }
+
+}

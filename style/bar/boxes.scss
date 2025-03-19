@@ -1,0 +1,22 @@
+@use "mocha.scss";
+
+.Bar {
+
+  .centerbox {
+    color: white;
+    background:transparent;
+  }
+
+  .Tool-Box {
+    margin-top: 5px;
+    background: mocha.$surface0;
+    border-radius: 20px;
+  }
+
+  .left-box {
+    margin-top: 5px;
+    background: mocha.$surface0;
+    border-radius: 0px 20px 20px 0px;
+  }
+
+}

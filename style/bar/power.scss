@@ -1,0 +1,9 @@
+@use "mocha.scss";
+@use "button-bar.scss";
+
+.power-button {
+    @include button-bar.common;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 20px 0px 0px 20px;
+  }

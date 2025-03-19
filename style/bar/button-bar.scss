@@ -1,0 +1,15 @@
+@use "../mocha.scss";
+
+@mixin common {
+  background: mocha.$surface0;
+  &:hover {
+    color: mocha.$mauve;
+    box-shadow: none;
+    //background: mocha.$surface2;
+    //border-style: solid;
+    //border-width: 1px;
+    //border-color: mocha.$mauve;
+    //transition: border-color .3s ease-in-out;
+    label { font-weight: bold; }
+  }
+}

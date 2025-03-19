@@ -1,0 +1,37 @@
+@use "mocha.scss";
+@use "button-bar.scss";
+
+@keyframes blink {
+    to {
+        color: mocha.$red;
+    }
+}
+
+.battery-button {
+  @include button-bar.common;
+  border-radius: 10px 20px 20px 10px;
+  padding-right: 20px;
+  margin-left: 10px;
+
+  &:hover {
+    color: white;
+  }
+
+  &.charging {
+    color: mocha.$green;
+  }
+
+  &.critical {
+    animation-name: blink;
+    animation-duration: 0.8s;
+    animation-timing-function: steps(10);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  .battery-label {
+    margin-right: 5px;
+  }
+
+}
+

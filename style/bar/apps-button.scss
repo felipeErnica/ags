@@ -1,0 +1,6 @@
+@use "button-bar.scss";
+
+button.apps-button {
+  @include button-bar.common;
+  margin-right: 10px;
+}

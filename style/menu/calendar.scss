@@ -1,0 +1,90 @@
+@use "../mocha.scss";
+@use "menu-button.scss";
+
+.calendar-content-container {
+  margin-top: 0em;
+  min-width: 27em;
+  min-height: 6em;
+  background: mocha.$base;
+  border: 2px solid mocha.$mauve;
+  border-radius: 10px;
+}
+
+.calendar-menu-item-container {
+  margin-bottom: 1.35em;
+  background: mocha.$base;
+}
+
+.calendar-content-items {
+  margin: 1.35em;
+}
+
+.calendar-container-box {
+  margin: 0.75em;
+  margin-bottom: 0em;
+}
+
+.calendar-menu-widget {
+  border-radius: 0.4em;
+  color: white;
+  background: mocha.$base;
+
+  &:selected {
+    box-shadow:
+      inset 0 -0.5em 0 0 mocha.$mauve,
+      inset -0.4em -0.3em 0 0 mocha.$base,
+      inset 0.4em 0 0 0.01em mocha.$base;
+    color: mocha.$pink;
+    font-weight: bold;
+    border-radius: 0em;
+  }
+
+  &.header {
+    background-color: transparent;
+    color: white;
+  }
+
+  &.button {
+    color: white;
+    font-weight: 900;
+    font-size: 900em;
+  }
+
+  &:hover {
+    color: mocha.$peach;
+  }
+
+  &.highlight {
+    color: mocha.$pink
+  }
+
+  &:indeterminate {
+    color: mocha.$blue;
+  }
+
+  font-size: 1.1em;
+  padding: 0.35em;
+}
+
+.clock-content-items {
+  min-height: 8em;
+  color: mocha.$blue;
+
+  .clock-content-time {
+    font-size: 4em;
+  }
+
+  .clock-content-period {
+    font-size: 1.75em;
+    margin-bottom: 1.35em;
+    margin-right: -0.875em;
+    color: mocha.$blue;
+  }
+}
+
+.calendar-menu-item-container {
+  margin-bottom: 0.65em;
+  &:last-child {
+    margin-bottom: 0em;
+  }
+}

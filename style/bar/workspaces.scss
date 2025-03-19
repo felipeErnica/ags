@@ -1,0 +1,20 @@
+@use "mocha.scss";
+@use "button-bar.scss";
+
+.Workspaces {
+  button {
+    @include button-bar.common;
+    padding: 0px 20px 0px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .focused { 
+    color: mocha.$mauve;
+  }
+
+  :last-child {
+    border-radius: 10px 20px 20px 10px;
+    margin-right: 0px;
+  }
+}

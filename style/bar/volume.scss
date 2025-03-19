@@ -1,0 +1,6 @@
+@use "button-bar.scss";
+
+.volume-button {
+  @include button-bar.common;
+  margin-left: 10px;
+}

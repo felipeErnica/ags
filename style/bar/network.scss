@@ -1,0 +1,14 @@
+@use "mocha.scss";
+@use "button-bar.scss";
+
+.network-button {
+  @include button-bar.common;
+
+  &.disconnected {
+    color: mocha.$red;
+    &:hover{
+      color: mocha.$mauve;
+    }
+  }
+
+}

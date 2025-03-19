@@ -1,0 +1,27 @@
+@use "mocha.scss";
+
+@use  "bar/apps-button.scss";
+@use "bar/arch_symbol.scss";
+@use "bar/workspaces.scss";
+@use 'bar/network';
+@use "bar/battery.scss";
+@use "bar/time.scss";
+@use "bar/power.scss";
+@use "bar/boxes.scss";
+@use "bar/volume.scss";
+@use "bar/bluetooth.scss";
+
+@use 'menu/network-menu.scss'; 
+@use 'menu/audio-menu.scss';
+@use "menu/bluetooth-menu.scss";
+@use "menu/calendar.scss";
+
+@use "osd/osd.scss";
+
+@use "applauncher/app_launcher.scss";
+
+* {
+  font-family: RobotoMono Nerd Font;
+  font-size: 12pt;
+}
+

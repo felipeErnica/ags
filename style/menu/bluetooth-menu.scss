@@ -1,0 +1,101 @@
+@use "../mocha.scss";
+@use "menu-button.scss";
+
+.menu-items.bluetooth {
+  background: mocha.$base;
+  border-color: mocha.$mauve;
+}
+
+.menu-items-container.bluetooth {
+  min-width: 25em;
+
+  font-size: 1.3em;
+
+  .menu-section-container {
+    margin: 1em 0em;
+  }
+
+  .menu-label-container {
+    .controls-container {
+      margin: 0.5em 1em;
+    }
+  }
+
+  .menu-items-section {
+    min-height: 20em;
+    font-size: 1em;
+  }
+
+  button {
+    @include menu-button.common;
+    margin-right: 0.5em;
+
+    &.search {
+      font-size: 0.8em;
+      margin-bottom: 0em;
+    }
+  }
+
+  .bluetooth-element-item {
+    margin-bottom: 0.4em;
+
+    image {
+      margin-right: 0em;
+      margin-top: 0em;
+      min-height: 1em;
+      min-width: 1em;
+    }
+
+    label {
+      font-size: 1em;
+    }
+
+    .menu-button-icon {
+      @include menu-button.common;
+      font-size: 1.5em;
+    }
+
+    .connection-status {
+      font-size: 0.9em;
+      margin-left: 0.6rem;
+      opacity: 0.4;
+    }
+    .battery {
+      opacity: 0.6;
+    }
+  }
+
+  spinner {
+    min-height: 1.3em;
+    min-width: 1.3em;
+  }
+
+  .menu-separator {
+    margin: 0em 1em;
+  }
+
+  .no-bluetooth-devices.dim,
+  .search-bluetooth-label.dim,
+  .bluetooth-disabled.dim {
+    &:last-child {
+      margin-bottom: 2em;
+    }
+
+    opacity: 0.5;
+  }
+  .menu-separator.bluetooth-battery {
+    margin: 0.2em 0.5em;
+    min-width: 0.1em;
+  }
+  .connection-status.txt-icon {
+    margin-left: 0.2em;
+  }
+
+  .bluetooth-controls {
+    margin-right: 0.5em;
+  }
+
+  .menu-scroller.bluetooth {
+    min-height: 18em;
+  }
+}

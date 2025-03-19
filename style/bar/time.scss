@@ -1,0 +1,10 @@
+@use "../mocha.scss";
+@use "button-bar.scss";
+
+
+.time-button {
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 0px 20px 0px 20px;
+  @include button-bar.common;
+}

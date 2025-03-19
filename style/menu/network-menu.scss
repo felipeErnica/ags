@@ -1,0 +1,146 @@
+@use "../mocha.scss";
+@use "menu.scss";
+@use "menu-button.scss";
+
+window#networkmenu {
+  all: unset
+}
+
+.menu-items.network {
+    background: mocha.$base;
+    border-color: mocha.$mauve;
+}
+
+.menu-items-container.network {
+    min-width: 25em;
+    min-height: 30em;
+    font-size: 1.3em;
+
+    .menu-items-section {
+        padding-bottom: 1.5em;
+    }
+
+    .menu-label {
+        color: white
+    }
+
+    .network-icon {
+        font-size: 1.3em;
+        min-width: 1em;
+        min-height: 1em;
+        color: mocha.$surface1;
+
+        &.active {
+            color: white;
+        }
+    }
+
+    .menu-icon-button.network {
+        margin: 1em;
+    }
+
+    .connection-container {
+        margin-left: 1em;
+    }
+
+    .connection-status.dim {
+        color: white;
+        opacity: 0.5;
+        font-size: 0.9em;
+    }
+
+    .menu-section-container.wifi {
+        margin-top: 0.65em;
+
+        .menu-items-section {
+            min-height: 12em;
+        }
+    }
+
+    .network-element-item {
+        @include menu-button.common;
+        &:not(:last-child) {
+            margin-bottom: 0.5em;
+        }
+
+        &.staging {
+            margin-bottom: 0.5em;
+        }
+
+        .active-connection {
+            color: white;
+        }
+
+        .active-connection.dim {
+            color: white;
+            opacity: 0.5;
+        }
+    }
+
+    .spinner.wap {
+        color: mocha.$yellow
+    }
+
+    .network-password-input-container {
+        background: mocha.$base;
+        color: white;
+        border-radius: 0.4em;
+        margin: 0em 2em;
+        margin-top: 0.75em;
+        padding: 0.5em;
+    }
+
+    .close-network-password-input-button {
+        padding: 0em 0.5em;
+
+        &:hover image {
+            color: white;
+            opacity: 0.5;
+        }
+    }
+
+    .menu-icon-button.network.search {
+        @include menu-button.common;
+    }
+
+    .menu-icon-button.network.disconnect {
+        @include menu-button.common;
+        color: white;
+        margin: 0em;
+        margin-top: -0.2em;
+        margin-left: 1em;
+
+        label {
+            font-size: 1.4em;
+        }
+
+        &:hover {
+            color: mocha.$maroon;
+        }
+    }
+
+    .waps-not-found.dim {
+        color: white;
+        opacity: 0.5;
+    }
+
+    .menu-label-container {
+        background: mocha.$base;
+    }
+
+    .menu-items-section {
+        background: mocha.$base;
+    }
+
+    .menu-scroller.wap {
+        min-height: 16em;
+
+        scrollbar contents trough slider {
+            background: mocha.$maroon;
+        }
+    }
+
+    .network-element-controls-container {
+        margin-right: 0.7em;
+    }
+}

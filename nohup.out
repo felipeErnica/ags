@@ -1,0 +1,606 @@
+
+(gjs:9950): Gjs-CRITICAL **: 00:23:10.156: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2512:24
+onClick@file:///run/user/1000/ags.js:977:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(gjs:9950): Gjs-CRITICAL **: 00:26:27.821: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2161:24
+onClick@file:///run/user/1000/ags.js:1021:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(gjs:9950): Gjs-CRITICAL **: 00:29:47.532: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2512:24
+onClick@file:///run/user/1000/ags.js:977:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+** (gjs:9950): CRITICAL **: 00:30:23.752: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+Gdk-Message: 00:30:23.752: Error reading events from display: Pipe quebrado
+[31merror: [0mexit status 1
+
+(gjs:22844): Gjs-CRITICAL **: 02:18:41.975: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:1450:24
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+QDBusTrayIcon encountered a D-Bus error: QDBusError("org.freedesktop.DBus.Error.ServiceUnknown", "The name is not activatable")
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:03.996: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:04.004: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:24:17.030: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:17.895: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:18.724: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:18.724: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:18.728: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:18.730: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:18.730: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:18.735: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:19.901: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:19.901: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:24:19.904: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:24.612: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:24.612: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:24.616: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:25.059: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:25.059: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:25.059: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:25.059: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:25.062: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:25.065: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:25.780: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:25.780: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:24:25.781: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.392: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.394: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.395: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.396: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.396: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.401: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:26.826: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:26.826: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:24:26.831: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.834: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:26.835: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:28.330: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:28.331: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:28.332: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:28.334: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:28.334: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:28.334: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:31.335: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:31.335: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:24:31.339: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:32.080: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:32.081: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:32.082: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:33.561: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:33.561: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:33.561: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:33.561: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:33.564: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:33.564: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:24:33.567: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:33.568: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:33.568: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:34.143: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:34.143: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:24:34.147: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:35.349: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:24:35.349: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:24:35.351: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:38:19.784: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:38:19.784: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:38:19.796: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:38:20.462: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:38:20.463: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:38:20.464: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:38:20.470: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:38:22.754: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:44:21.238: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:44:21.239: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:44:21.337: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:44:22.733: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:44:22.733: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:44:22.734: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:46:59.379: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:46:59.380: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:46:59.388: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:47:00.277: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 02:47:00.277: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 02:47:00.278: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:47:00.315: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:47:01.598: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:52:56.033: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 02:52:57.774: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 03:05:14.379: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 03:05:14.380: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 03:05:14.497: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 03:05:16.225: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 03:05:16.226: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 03:05:16.289: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 03:18:22.406: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 03:18:22.406: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 03:18:22.432: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:22844): GLib-GObject-CRITICAL **: 03:18:23.267: invalid (NULL) pointer instance
+
+(gjs:22844): GLib-GObject-CRITICAL **: 03:18:23.267: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:22844): CRITICAL **: 03:18:23.271: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:22844): CRITICAL **: 03:18:23.297: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+
+
+** (gjs:22844): CRITICAL **: 03:22:28.668: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+Gdk-Message: 03:22:28.669: Error reading events from display: Pipe quebrado
+[31merror: [0mexit status 1
+
+(gjs:16089): Gjs-CRITICAL **: 13:38:06.657: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2181:24
+onClick@file:///run/user/1000/ags.js:1021:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(gjs:16089): Gjs-CRITICAL **: 13:38:09.111: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2532:24
+onClick@file:///run/user/1000/ags.js:977:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(gjs:16089): Gjs-CRITICAL **: 13:38:12.253: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2532:24
+onClick@file:///run/user/1000/ags.js:977:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(gjs:18095): Gjs-CRITICAL **: 13:59:42.925: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2625:24
+openMenu@file:///run/user/1000/ags.js:1023:17
+async*onClick@file:///run/user/1000/ags.js:1115:41
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(gjs:18095): Gjs-CRITICAL **: 13:59:49.978: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:2625:24
+openMenu@file:///run/user/1000/ags.js:1023:17
+async*onClick@file:///run/user/1000/ags.js:1115:41
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+78.3984375 6.578125
+
+(gjs:62817): Gjs-CRITICAL **: 22:48:14.984: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:1627:24
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+(gjs:62817): Gjs-CRITICAL **: 22:48:17.362: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:1627:24
+onClick@file:///run/user/1000/ags.js:1535:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+
+** (gjs:70603): CRITICAL **: 00:02:46.255: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+Gdk-Message: 00:02:46.257: Error reading events from display: Pipe quebrado
+[31merror: [0mexit status 1
+
+** (gjs:84724): CRITICAL **: 01:15:22.456: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:22.457: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:22.461: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:22.463: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:24.108: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:25.343: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:25.345: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:26.620: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:26.620: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:26.638: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:26.644: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:26.699: invalid (NULL) pointer instance
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:26.699: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:84724): CRITICAL **: 01:15:26.705: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:27.103: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:27.103: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:27.103: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:32.435: invalid (NULL) pointer instance
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:32.435: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:84724): CRITICAL **: 01:15:32.436: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:32.880: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:32.880: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:84724): CRITICAL **: 01:15:32.880: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:33.584: invalid (NULL) pointer instance
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:33.585: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:84724): CRITICAL **: 01:15:33.588: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:34.660: invalid (NULL) pointer instance
+
+(gjs:84724): GLib-GObject-CRITICAL **: 01:15:34.660: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:84724): CRITICAL **: 01:15:34.663: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:84724): astal-CRITICAL **: 01:16:43.833: Falha ao enviar notificação: Invalid number of options.
+
+** (gjs:84724): CRITICAL **: 01:18:40.918: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:34.987: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:34.988: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:34.988: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:34.988: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:36.540: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.436: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.437: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.438: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.438: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.438: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.449: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.515: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.515: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.515: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.515: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.521: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 01:58:37.523: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 01:58:37.523: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 01:58:37.525: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.526: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.889: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.889: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 01:58:37.889: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 01:58:37.899: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 01:58:37.899: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 01:58:37.900: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 01:58:39.011: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 01:58:39.011: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 01:58:39.019: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:32.292: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:32.292: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:32.297: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:07:32.846: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:07:32.846: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:07:32.858: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:32.867: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:34.769: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:42.510: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:42.510: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:42.513: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:07:44.915: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:07:44.915: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:07:44.916: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:46.484: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:46.484: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:07:46.497: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:07:47.945: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:07:47.945: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:07:47.947: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:09:55.198: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:09:55.199: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:09:55.206: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:09:55.959: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:09:55.959: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:09:55.975: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:09:55.992: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:09:58.351: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:16:58.840: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:16:58.840: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:16:58.846: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:16:59.399: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:16:59.399: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:16:59.407: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:16:59.430: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:17:01.242: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:17:55.813: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:17:55.813: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:17:55.826: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:17:57.572: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:17:57.572: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:17:57.573: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:19:44.123: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:19:44.123: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:19:44.130: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:19:45.616: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:19:45.616: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:19:45.628: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:19:45.639: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:19:46.969: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:22:16.067: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:22:16.067: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:22:16.075: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:22:16.885: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:22:16.885: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:22:16.896: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:22:16.921: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:22:18.307: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:24:45.258: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:24:45.259: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:24:45.264: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:24:46.223: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:24:46.223: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:24:46.224: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:24:46.235: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:24:51.544: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:11.062: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:11.062: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:11.067: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:30:11.735: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:30:11.735: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:30:11.746: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:11.751: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:13.220: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:39.312: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:39.312: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:39.312: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:30:40.217: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:30:40.217: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:30:40.228: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:40.235: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:30:41.802: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:45:53.712: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:45:53.712: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:45:53.714: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:45:54.440: invalid (NULL) pointer instance
+
+(gjs:5362): GLib-GObject-CRITICAL **: 02:45:54.440: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (gjs:5362): CRITICAL **: 02:45:54.447: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+** (gjs:5362): CRITICAL **: 02:45:54.455: hyprland.vala:145: Os dados JSON devem possuir codificação UTF-8
+
+(gjs:5362): Gjs-CRITICAL **: 02:47:14.966: JS ERROR: TypeError: self.get_gdkmonitor() is null
+onShow@file:///run/user/1000/ags.js:1641:24
+onClick@file:///run/user/1000/ags.js:1549:34
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+
+
+
+
+** (gjs:5362): CRITICAL **: 02:47:35.362: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+Gdk-Message: 02:47:35.363: Error reading events from display: Pipe quebrado
+[31merror: [0mexit status 1
+
+(rygel-preferences:26478): Gtk-WARNING **: 18:03:28.191: Content added to the action area of a dialog using header bars
+
+(rygel-preferences:26478): Gtk-WARNING **: 18:03:28.192: Content added to the action area of a dialog using header bars
+[3:0317/180753.942959:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: Arquivo ou diretório inexistente
+[3:0317/180754.844556:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: Arquivo ou diretório inexistente
+[3:0317/180754.844636:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: Arquivo ou diretório inexistente
+[45:0317/180800.289982:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[45:0317/180806.317077:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[45:0317/180811.482245:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+
+Gdk-Message: 18:45:26.436: Error reading events from display: Pipe quebrado
+[31merror: [0mexit status 1

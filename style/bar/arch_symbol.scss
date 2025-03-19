@@ -1,0 +1,9 @@
+@use "mocha.scss";
+@use "button-bar.scss";
+
+.arch-info-label {
+  @include button-bar.common;
+  margin-right: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
+
