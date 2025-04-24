@@ -10,6 +10,7 @@
 .menu-items-container.audio {
   min-width: 18em;
   background: mocha.$base;
+  font-size: 1.2em;
 
   .menu-button-isactive.audio {
     @include menu-button.common;
