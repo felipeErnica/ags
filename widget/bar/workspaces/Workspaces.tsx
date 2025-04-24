@@ -35,7 +35,7 @@ function build_button_label(workspace: AstalHyprland.Workspace, client: AstalHyp
 
 function workspace_button(workspace: AstalHyprland.Workspace) {
     
-    const button_label = Variable.derive([bind(workspace, "clients")], (clients) => build_button_label(workspace, clients[0])) 
+    const button_label = Variable.derive([bind(workspace, "clients")], (clients) => build_button_label(workspace, clients[0]))
 
     return <button
         label={bind(button_label).as(String)}
@@ -50,6 +50,7 @@ export function Workspaces() {
     return <box className="Workspaces">
         {bind(hypr, "workspaces").as(wss => wss
             .filter(ws => !(ws.id >= -99 && ws.id <= -2)) // filter out special workspaces
+            .filter(ws => ws.id <= 5) //Limita a 5 espaços de trabalho.
             .sort((a, b) => a.id - b.id)
             .map(ws => workspace_button(ws))
         )}

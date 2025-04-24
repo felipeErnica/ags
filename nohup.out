@@ -604,3 +604,109 @@ Gdk-Message: 02:47:35.363: Error reading events from display: Pipe quebrado
 
 Gdk-Message: 18:45:26.436: Error reading events from display: Pipe quebrado
 [31merror: [0mexit status 1
+time="2025-03-20T12:44:19-03:00" level=info msg=">>> Loading preferences"
+time="2025-03-20T12:44:19-03:00" level=info msg="lang: pt_BR"
+time="2025-03-20T12:44:19-03:00" level=info msg=">>> Loading basic lang from '/usr/share/nwg-look/langs/en_US.json'"
+time="2025-03-20T12:44:19-03:00" level=info msg=">>> Reading gsettings"
+time="2025-03-20T12:44:19-03:00" level=info msg="gtk-theme: Orchis-Dark-Compact"
+time="2025-03-20T12:44:19-03:00" level=info msg="icon-theme: breeze-dark"
+time="2025-03-20T12:44:19-03:00" level=info msg="font-name: Cantarell 11"
+time="2025-03-20T12:44:19-03:00" level=info msg="cursor-theme: default"
+time="2025-03-20T12:44:19-03:00" level=info msg="cursor-size: 24"
+time="2025-03-20T12:44:19-03:00" level=info msg="toolbar-style: both-horiz"
+time="2025-03-20T12:44:19-03:00" level=info msg="toolbar-icons-size: large"
+time="2025-03-20T12:44:19-03:00" level=info msg="font-hinting: slight"
+time="2025-03-20T12:44:19-03:00" level=info msg="font-antialiasing: grayscale"
+time="2025-03-20T12:44:19-03:00" level=info msg="font-rgba-order: rgb"
+time="2025-03-20T12:44:19-03:00" level=info msg="text-scaling-factor: 1"
+time="2025-03-20T12:44:19-03:00" level=info msg="color-scheme: prefer-dark"
+time="2025-03-20T12:44:19-03:00" level=info msg="event-sounds: true"
+time="2025-03-20T12:44:19-03:00" level=info msg="input-feedback-sounds: false"
+time="2025-03-20T12:44:19-03:00" level=info msg=">>> Parsing original /home/felipeernica/.config/gtk-3.0/settings.ini"
+[LOG]   | got iface: wl_seat v9
+[LOG]    > Bound to wl_seat v9
+[LOG]   | got iface: wl_data_device_manager v3
+[LOG]   | got iface: wl_compositor v6
+[LOG]    > Bound to wl_compositor v6
+[LOG]   | got iface: wl_subcompositor v1
+[LOG]   | got iface: wl_shm v1
+[LOG]    > Bound to wl_shm v1
+[LOG]   | got iface: wp_viewporter v1
+[LOG]    > Bound to wp_viewporter v1
+[LOG]   | got iface: wp_tearing_control_manager_v1 v1
+[LOG]   | got iface: wp_fractional_scale_manager_v1 v1
+[LOG]    > Bound to wp_fractional_scale_manager_v1 v1
+[LOG]   | got iface: zxdg_output_manager_v1 v3
+[LOG]   | got iface: wp_cursor_shape_manager_v1 v1
+[LOG]    > Bound to wp_cursor_shape_manager_v1 v1
+[LOG]   | got iface: zwp_idle_inhibit_manager_v1 v1
+[LOG]   | got iface: zwp_relative_pointer_manager_v1 v1
+[LOG]   | got iface: zxdg_decoration_manager_v1 v1
+[LOG]   | got iface: wp_alpha_modifier_v1 v1
+[LOG]   | got iface: zwlr_gamma_control_manager_v1 v1
+[LOG]   | got iface: ext_foreign_toplevel_list_v1 v1
+[LOG]   | got iface: zwp_pointer_gestures_v1 v3
+[LOG]   | got iface: zwlr_foreign_toplevel_manager_v1 v3
+[LOG]   | got iface: zwp_keyboard_shortcuts_inhibit_manager_v1 v1
+[LOG]   | got iface: zwp_text_input_manager_v1 v1
+[LOG]   | got iface: zwp_text_input_manager_v3 v1
+[LOG]   | got iface: zwp_pointer_constraints_v1 v1
+[LOG]   | got iface: zwlr_output_power_manager_v1 v1
+[LOG]   | got iface: xdg_activation_v1 v1
+[LOG]   | got iface: ext_idle_notifier_v1 v1
+[LOG]   | got iface: hyprland_lock_notifier_v1 v1
+[LOG]   | got iface: ext_session_lock_manager_v1 v1
+[LOG]    > Bound to ext_session_lock_manager_v1 v1
+[LOG]   | got iface: zwp_input_method_manager_v2 v1
+[LOG]   | got iface: zwp_virtual_keyboard_manager_v1 v1
+[LOG]   | got iface: zwlr_virtual_pointer_manager_v1 v2
+[LOG]   | got iface: zwlr_output_manager_v1 v4
+[LOG]   | got iface: org_kde_kwin_server_decoration_manager v1
+[LOG]   | got iface: hyprland_focus_grab_manager_v1 v1
+[LOG]   | got iface: zwp_tablet_manager_v2 v1
+[LOG]   | got iface: zwlr_layer_shell_v1 v5
+[LOG]   | got iface: wp_presentation v1
+[LOG]   | got iface: xdg_wm_base v6
+[LOG]   | got iface: zwlr_data_control_manager_v1 v2
+[LOG]   | got iface: zwp_primary_selection_device_manager_v1 v1
+[LOG]   | got iface: xwayland_shell_v1 v1
+[LOG]   | got iface: zwlr_screencopy_manager_v1 v3
+[LOG]    > Bound to zwlr_screencopy_manager_v1 v3
+[LOG]   | got iface: hyprland_toplevel_export_manager_v1 v2
+[LOG]   | got iface: hyprland_global_shortcuts_manager_v1 v1
+[LOG]   | got iface: xdg_dialog_v1 v1
+[LOG]   | got iface: wp_single_pixel_buffer_manager_v1 v1
+[LOG]   | got iface: wp_security_context_manager_v1 v1
+[LOG]   | got iface: hyprland_ctm_control_manager_v1 v1
+[LOG]   | got iface: hyprland_surface_manager_v1 v2
+[LOG]   | got iface: wp_drm_lease_device_v1 v1
+[LOG]   | got iface: wp_linux_drm_syncobj_manager_v1 v1
+[LOG]   | got iface: wl_drm v2
+[LOG]   | got iface: zwp_linux_dmabuf_v1 v5
+[LOG]    > Bound to zwp_linux_dmabuf_v1 v5
+[LOG]   | got iface: wl_output v4
+[LOG]    > Bound to wl_output v4
+[LOG] Exposed seat name: Hyprland
+[LOG] [core] dmabufFeedbackMainDevice
+[LOG] output eDP-1 name eDP-1
+[LOG] output 53 description BOE 0x0812  (eDP-1)
+[LOG] output 53 make BOE model 0x0812
+[LOG] output 53 done
+[LOG] Running on Hyprland
+[LOG] Locking session
+[LOG] Starting fade in
+[LOG] Got fractional scale: 100.0%
+[LOG] configure with serial 1759
+[LOG] Configuring surface for logical [Vector2D: x: 1920, y: 1080] and pixel [Vector2D: x: 1920, y: 1080]
+[LOG] onLockLocked called
+[LOG] Authenticating
+[LOG] PAM_PROMPT: Password: 
+[LOG] auth: authenticated for hyprlock
+[LOG] Unlocking session
+[LOG] Unlocked, exiting!
+[LOG] Reached the end, exiting
+Gdk-Message: 13:18:01.959: Error reading events from display: Pipe quebrado
+[31merror: [0mexit status 1
+
+(gjs:8971): Gjs-WARNING **: 21:49:34.150: Type void of property AstalWp.Video::recorders does not match return type glist of getter get_recorders. Falling back to slow path
+

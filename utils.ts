@@ -4,10 +4,10 @@ import { calculateMenuPosition } from "./widget/menu/shared/dropdown/locationHan
 import { NotificationBuilder } from "./types";
 
 export function setup(self: Gtk.Widget, menuName: string): void {
-    const rightClick = Variable('')
+    const leftClick = Variable('')
     let disconnectFunctions: (() => void)[] = []
     Variable.derive([
-        bind(rightClick)
+        bind(leftClick)
     ], 
     () => {
         disconnectFunctions.forEach((disconnect) => disconnect())

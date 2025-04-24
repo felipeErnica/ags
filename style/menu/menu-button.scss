@@ -10,7 +10,10 @@
     color: mocha.$maroon;
     background: mocha.$base;
     box-shadow: none;
-    label { color: mocha.$maroon;}
+    label { 
+      transition: color .3s ease-in-out;
+      color: mocha.$maroon;
+    }
   }
   
 }

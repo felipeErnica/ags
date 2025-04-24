@@ -5,6 +5,7 @@ import { Time } from "./Time"
 import { Workspaces } from "./workspaces/Workspaces"
 import { BatteryLevel } from "./battery/Battery"
 import { Bluetooth } from "./bluetooth/Bluetooth"
+import { SysInfo } from "./SysInfo"
 
 function PowerButton() {
     return <box className={"Power"}>
@@ -38,8 +39,9 @@ export default function Bar(monitor: Gdk.Monitor) {
                 <button
                     className="arch-info-label" 
                     label="󰣇" 
-                    onClick="kitty --hold -e neofetch"
+                    onClick="kitty --hold -e fastfetch"
                 />
+                <SysInfo />
                 <AppsButton />
                 <Workspaces />
             </box>

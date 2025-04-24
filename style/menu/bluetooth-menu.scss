@@ -9,7 +9,7 @@
 .menu-items-container.bluetooth {
   min-width: 25em;
 
-  font-size: 1.3em;
+  font-size: 1em;
 
   .menu-section-container {
     margin: 1em 0em;
@@ -52,7 +52,7 @@
 
     .menu-button-icon {
       @include menu-button.common;
-      font-size: 1.5em;
+      font-size: 1em;
     }
 
     .connection-status {
@@ -66,8 +66,8 @@
   }
 
   spinner {
-    min-height: 1.3em;
-    min-width: 1.3em;
+    min-height: 1em;
+    min-width: 1em;
   }
 
   .menu-separator {

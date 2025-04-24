@@ -10,6 +10,7 @@
 @use "bar/boxes.scss";
 @use "bar/volume.scss";
 @use "bar/bluetooth.scss";
+@use "bar/sys-info.scss";
 
 @use 'menu/network-menu.scss'; 
 @use 'menu/audio-menu.scss';
@@ -22,6 +23,6 @@
 
 * {
   font-family: RobotoMono Nerd Font;
-  font-size: 12pt;
+  font-size: 13pt;
 }
 

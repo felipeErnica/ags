@@ -1,0 +1,9 @@
+@use "../mocha.scss";
+@use "button-bar.scss";
+
+.SysInfo {
+  label {
+    padding: 0em 1em 0em 1em
+  }
+  @include button-bar.common;
+}

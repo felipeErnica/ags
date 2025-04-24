@@ -2,6 +2,11 @@
     "$schema": "https://json.schemastore.org/tsconfig",
     "compilerOptions": {
         "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "@": ["."],
+            "@/*": ["./*"]
+        },
         "strict": true,
         "target": "ES2022",
         "module": "ES2022",
