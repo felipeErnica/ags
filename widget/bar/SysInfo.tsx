@@ -32,7 +32,7 @@ const Mem = (): JSX.Element => {
 }
 
 export const SysInfo = (): JSX.Element => {
-    return <button className="SysInfo" onClick={"alacritty --hold -e btop"}>
+    return <button className="SysInfo" onClick={"alacritty -e bash -c btop"}>
         <box>
             <Cpu />
             <Mem />
