@@ -1,6 +1,6 @@
 import { Variable, bind } from 'astal';
+import { App } from 'astal/gtk3';
 import AstalBluetooth from 'gi://AstalBluetooth?version=0.1';
-import { setup } from '../../../utils';
 
 const bluetoothService = AstalBluetooth.get_default();
 
@@ -20,7 +20,7 @@ const Bluetooth = () => {
     return (
         <button
             className="Bluetooth"
-            setup={self => setup(self, "bluetoothmenu")}
+            onClick={() => App.toggle_window("bluetoothmenu")}
         >
             {componentBinding()}
         </button>

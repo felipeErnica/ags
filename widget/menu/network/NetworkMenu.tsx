@@ -10,7 +10,7 @@ const networkService = AstalNetwork.get_default();
 export default (): JSX.Element => {
 
     return (
-        <DropdownMenu name='networkmenu' >
+        <DropdownMenu name='networkmenu' marginStart={1250}>
             <box className={'menu-items network'}>
                 <box className={'menu-items-container network'} vertical hexpand={false}>
                     <Ethernet />

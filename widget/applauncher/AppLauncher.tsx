@@ -52,7 +52,7 @@ export default function Applauncher() {
                 self.hide()
         }}>
         <box>
-            <eventbox widthRequest={width(w => w/2)} expand onClick={hide} />
+            <eventbox  widthRequest={width(w => w/2)} expand onClick={hide} />
             <box hexpand={false} vertical>
                 <eventbox heightRequest={200} onClick={hide} />
                 <box widthRequest={1000} className="Applauncher" vertical>

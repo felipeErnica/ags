@@ -1,10 +1,8 @@
 import Wp from "gi://AstalWp"
 import { get_icon } from "./VolumeIcon"
 import { bind,  Variable } from "astal"
-import { App, Gdk, Gtk } from "astal/gtk3"
-import { onPrimaryClick, openMenu } from "../../../utils"
+import { App } from "astal/gtk3"
 
-const rightClick = Variable('')
 
 function build_label(isMute: boolean, device: string, volume: number) {
     if (isMute) return "󰖁" 
@@ -28,20 +26,7 @@ export function Volume(): JSX.Element {
         <button 
             className={'volume-button'}
             label={bind(volumeLabel).as(String)}
-            //onClick={(self, handler: (self: Gtk.Widget, event: Gdk.Event)) => openMenu(self, event, "audiomenu")}
-            setup={ (self) => {
-                let disconnectFunctions: (() => void)[] = []
-                Variable.derive([
-                    bind(rightClick)
-                ], () => {
-                    disconnectFunctions.forEach((disconnect) => disconnect())
-                    disconnectFunctions = []
-
-                    disconnectFunctions.push(
-                        onPrimaryClick(self, (self, event) => openMenu(self, event, "audiomenu"))
-                    )
-                }) 
-            }}
-        />
+            onClick={() => App.toggle_window('audiomenu')}
+       />
     </box>
 }

@@ -2,11 +2,17 @@ import { BarEventMargins } from './eventBoxes/index';
 import { App, Astal, Gdk, Gtk } from 'astal/gtk3';
 import { Revealer } from 'astal/gtk3/widget';
 import { globalEventBoxes } from './globalEventBoxes';
+import AstalHyprland from 'gi://AstalHyprland?version=0.1';
+import { Variable } from 'astal';
 
 export const DropdownMenu = ({
+    marginStart,
     name,
     child,
 }: MenuProps): JSX.Element => {
+
+    const width = Variable(AstalHyprland.get_default().get_focused_monitor().width)
+
     return (
         <window
             name={name}
@@ -23,7 +29,6 @@ export const DropdownMenu = ({
             application={App}
             keymode={Astal.Keymode.ON_DEMAND}
             exclusivity={Astal.Exclusivity.IGNORE}
-            layer={Astal.Layer.TOP}
             anchor={Astal.WindowAnchor.TOP}
         >
             <eventbox
@@ -39,6 +44,9 @@ export const DropdownMenu = ({
                 <box className="top-eb" vertical>
                     <BarEventMargins windowName={name} />;
                     <eventbox
+                        marginEnd={width(w => w - (marginStart + 500))}
+                        marginStart={marginStart}
+                        marginBottom={450}
                         className="in-eb menu-event-box"
                         onButtonPressEvent={(_, event) => {
                             const buttonClicked = event.get_button()[1];
@@ -46,12 +54,6 @@ export const DropdownMenu = ({
                             if (buttonClicked === Gdk.BUTTON_PRIMARY || buttonClicked === Gdk.BUTTON_SECONDARY) {
                                 return true;
                             }
-                        }}
-                        setup={(self) => {
-                            globalEventBoxes.set({
-                                ...globalEventBoxes.get(),
-                                [name]: self,
-                            });
                         }}
                     >
                         <box className="dropdown-menu-container" css="padding: 1px; margin: -1px;">
@@ -76,6 +78,7 @@ export const DropdownMenu = ({
 };
 
 interface MenuProps {
-    name: string,
+    marginStart: number
+    name: string
     child?: JSX.Element | JSX.Element[]
 }

@@ -1,5 +1,5 @@
 import { GLib, Variable, bind } from "astal"
-import { setup } from "../../utils"
+import { App } from "astal/gtk3"
 
 export function Time() {
     const time = Variable(GLib.DateTime.new_now_local()).poll(1000, 
@@ -14,9 +14,7 @@ export function Time() {
         <button 
             className="time-button" 
             label={day}
-            setup={self => {
-                setup(self, "calendarmenu")
-            }}
+            onClick={() => App.toggle_window("calendarmenu")}
         />
     </box>
 }

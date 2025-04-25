@@ -6,7 +6,7 @@ import { DropdownMenu } from '../shared/dropdown/DropdownMenu.js';
 export default (): JSX.Element => {
     
     return (
-        <DropdownMenu name='audiomenu'>
+        <DropdownMenu name='audiomenu' marginStart={1400}>
             <box className={'menu-items audio'} halign={Gtk.Align.FILL} hexpand>
                 <box className={'menu-items-container audio'} halign={Gtk.Align.FILL} vertical hexpand>
                     <VolumeSliders />

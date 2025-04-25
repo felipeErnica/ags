@@ -1,6 +1,8 @@
 import { bind, Variable } from "astal";
 import Network from "gi://AstalNetwork"
 import { setup } from "../../../utils";
+import { App } from "astal/gtk3";
+import NetworkMenu from "@/widget/menu/network/NetworkMenu";
 
 const icon_map = [
     ["network-wireless-signal-excellent-symbolic", "󰤨"],
@@ -39,11 +41,11 @@ export function wifi_element(wifi: Network.Wifi): JSX.Element {
     ], (ssid, iconName) => get_label(ssid, iconName))
 
     return <box>
-        <button 
+        <button
             className="network-button wifi" 
             label={bind(label).as(String)}
             tooltipText={bind(tooltipText).as(String)} 
-            setup={self => setup(self, "networkmenu")}
+            onClick={() => App.toggle_window('networkmenu')}
         />
     </box>
 }
