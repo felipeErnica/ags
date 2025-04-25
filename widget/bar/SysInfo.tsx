@@ -32,7 +32,7 @@ const Mem = (): JSX.Element => {
 }
 
 export const SysInfo = (): JSX.Element => {
-    return <button className="SysInfo" onClick={"alacritty -e bash -c btop"}>
+    return <button className="SysInfo" onClick={"alacritty -e zsh -c btop"}>
         <box>
             <Cpu />
             <Mem />
