@@ -24,7 +24,7 @@ export const DropdownMenu = ({
             keymode={Astal.Keymode.ON_DEMAND}
             exclusivity={Astal.Exclusivity.IGNORE}
             layer={Astal.Layer.TOP}
-            anchor={Astal.WindowAnchor.TOP | Astal.WindowAnchor.RIGHT}
+            anchor={Astal.WindowAnchor.TOP}
         >
             <eventbox
                 className="parent-event"
