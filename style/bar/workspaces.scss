@@ -1,4 +1,4 @@
-@use "mocha.scss";
+@use "gruvbox.scss";
 @use "button-bar.scss";
 
 .Workspaces {
@@ -10,7 +10,7 @@
   }
 
   .focused { 
-    color: mocha.$mauve;
+    color: gruvbox.$orange;
   }
 
   :last-child {

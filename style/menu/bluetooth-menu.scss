@@ -1,9 +1,9 @@
-@use "../mocha.scss";
+@use "../gruvbox.scss";
 @use "menu-button.scss";
 
 .menu-items.bluetooth {
-  background: mocha.$base;
-  border-color: mocha.$mauve;
+  background: gruvbox.$bg;
+  border-color: gruvbox.$bg4;
 }
 
 .menu-items-container.bluetooth {

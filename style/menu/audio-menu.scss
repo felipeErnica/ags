@@ -1,15 +1,15 @@
 @use "menu-button.scss";
-@use "../mocha.scss";
+@use "../gruvbox.scss";
 @use './menu.scss';
 
 
 .menu-items.audio {
-    border-color: mocha.$mauve;
+    border-color: gruvbox.$bg4;
 }
 
 .menu-items-container.audio {
   min-width: 18em;
-  background: mocha.$base;
+  background: gruvbox.$bg;
   font-size: 1.2em;
 
   .menu-button-isactive.audio {
@@ -29,7 +29,7 @@
       @include menu-button.common;
       .menu-active-icon.playback,
       .menu-active-icon.input {
-        color: white;
+        color: gruvbox.$fg;
         opacity: 1;
       }
 
@@ -37,7 +37,7 @@
         @include menu-button.common;
         .menu-active-icon.playback,
         .menu-active-icon.input {
-          color: white;
+          color: gruvbox.$fg;
           opacity: 1;
         }
       }

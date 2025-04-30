@@ -1,9 +1,9 @@
-@use "mocha.scss";
+@use "gruvbox.scss";
 @use "button-bar.scss";
 
 @keyframes blink {
     to {
-        color: mocha.$red;
+        color: gruvbox.$red;
     }
 }
 
@@ -18,7 +18,7 @@
   }
 
   &.charging {
-    color: mocha.$green;
+    color: gruvbox.$green;
   }
 
   &.critical {

@@ -1,4 +1,4 @@
-@use "../mocha.scss";
+@use "../gruvbox.scss";
 @use "menu.scss";
 @use "menu-button.scss";
 
@@ -7,8 +7,8 @@ window#networkmenu {
 }
 
 .menu-items.network {
-    background: mocha.$base;
-    border-color: mocha.$mauve;
+    background: gruvbox.$bg;
+    border-color: gruvbox.$bg4;
 }
 
 .menu-items-container.network {
@@ -21,17 +21,17 @@ window#networkmenu {
     }
 
     .menu-label {
-        color: white
+        color: gruvbox.$fg
     }
 
     .network-icon {
         font-size: 1em;
         min-width: 1em;
         min-height: 1em;
-        color: mocha.$surface1;
+        color: gruvbox.$bg3;
 
         &.active {
-            color: white;
+            color: gruvbox.$fg;
         }
     }
 
@@ -44,7 +44,7 @@ window#networkmenu {
     }
 
     .connection-status.dim {
-        color: white;
+        color: gruvbox.$fg;
         opacity: 0.5;
         font-size: 0.9em;
     }
@@ -68,22 +68,22 @@ window#networkmenu {
         }
 
         .active-connection {
-            color: white;
+            color: gruvbox.$fg;
         }
 
         .active-connection.dim {
-            color: white;
+            color: gruvbox.$fg;
             opacity: 0.5;
         }
     }
 
     .spinner.wap {
-        color: mocha.$yellow
+        color: gruvbox.$yellow
     }
 
     .network-password-input-container {
-        background: mocha.$base;
-        color: white;
+        background: gruvbox.$bg;
+        color: gruvbox.$fg;
         border-radius: 0.4em;
         margin: 0em 2em;
         margin-top: 0.75em;
@@ -94,7 +94,7 @@ window#networkmenu {
         padding: 0em 0.5em;
 
         &:hover image {
-            color: white;
+            color: gruvbox.$fg;
             opacity: 0.5;
         }
     }
@@ -105,7 +105,7 @@ window#networkmenu {
 
     .menu-icon-button.network.disconnect {
         @include menu-button.common;
-        color: white;
+        color: gruvbox.$fg;
         margin: 0em;
         margin-top: -0.2em;
         margin-left: 1em;
@@ -115,28 +115,28 @@ window#networkmenu {
         }
 
         &:hover {
-            color: mocha.$maroon;
+            color: gruvbox.$red-dim;
         }
     }
 
     .waps-not-found.dim {
-        color: white;
+        color: gruvbox.$fg;
         opacity: 0.5;
     }
 
     .menu-label-container {
-        background: mocha.$base;
+        background: gruvbox.$bg;
     }
 
     .menu-items-section {
-        background: mocha.$base;
+        background: gruvbox.$bg;
     }
 
     .menu-scroller.wap {
         min-height: 16em;
 
         scrollbar contents trough slider {
-            background: mocha.$maroon;
+            background: gruvbox.$yellow;
         }
     }
 

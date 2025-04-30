@@ -1,9 +1,11 @@
-@use "../mocha.scss";
+@use "../gruvbox.scss";
 
 @mixin common {
-  background: mocha.$surface0;
+  background: gruvbox.$bg;
+  color: gruvbox.$fg;
+  label { font-weight: normal; }
   &:hover {
-    color: mocha.$mauve;
+    color: gruvbox.$yellow-dim;
     box-shadow: none;
     transition: color .3s ease-in-out;
     label { font-weight: bold; }

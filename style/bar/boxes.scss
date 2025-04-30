@@ -1,21 +1,21 @@
-@use "mocha.scss";
+@use "gruvbox.scss";
 
 .Bar {
 
   .centerbox {
-    color: white;
+    color: gruvbox.$fg;
     background:transparent;
   }
 
   .Tool-Box {
     margin-top: 5px;
-    background: mocha.$surface0;
+    background: gruvbox.$bg;
     border-radius: 20px;
   }
 
   .left-box {
     margin-top: 5px;
-    background: mocha.$surface0;
+    background: gruvbox.$bg;
     border-radius: 0px 20px 20px 0px;
   }
 

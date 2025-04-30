@@ -1,11 +1,11 @@
-@use "mocha.scss";
+@use "gruvbox.scss";
 @use "button-bar.scss";
 
 .network-button {
   @include button-bar.common;
 
   &.disconnected {
-    color: mocha.$red;
+    color: gruvbox.$red;
   }
 
 }

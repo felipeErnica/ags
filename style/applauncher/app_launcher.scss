@@ -1,5 +1,5 @@
 @use "sass:string";
-@use "../mocha.scss";
+@use "../gruvbox.scss";
 
 @function gtkalpha($c, $a) {
     @return string.unquote("alpha(#{$c},#{$a})");
@@ -10,7 +10,7 @@ window#launcher {
   all: unset;
 
   box.Applauncher {
-    background-color: mocha.$base;
+    background-color: gruvbox.$bg;
     border-radius: 11px;
     margin: 1rem;
     padding: .8rem;
@@ -30,15 +30,15 @@ window#launcher {
       padding: .5rem;
 
       &:hover {
-        background-color: mocha.$surface2;
-        border-color: mocha.$mauve;
+        background-color: gruvbox.$bg2;
+        border-color: gruvbox.$bg4;
         border-width: 2px;
         border-style: solid;
       }      
 
       &:focus {
-        background-color: mocha.$surface2;
-        border-color: mocha.$mauve;
+        background-color: gruvbox.$bg2;
+        border-color: gruvbox.$bg4;
         border-width: 2px;
         border-style: solid;
       }      
@@ -54,7 +54,7 @@ window#launcher {
       }
 
       label.description {
-        color: gtkalpha(mocha.$subtext1, .8);
+        color: gtkalpha(gruvbox.$fg1, .8);
       }
     }
 
@@ -63,11 +63,11 @@ window#launcher {
 
       icon {
         font-size: 6em;
-        color: gtkalpha(mocha.$subtext1, .7);
+        color: gtkalpha(gruvbox.$fg1, .7);
       }
 
       label {
-        color: gtkalpha(mocha.$subtext1, .9);
+        color: gtkalpha(gruvbox.$fg1, .9);
         font-size: 1.2em;
       }
     }

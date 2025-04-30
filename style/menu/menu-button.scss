@@ -1,18 +1,18 @@
-@use "../mocha.scss";
+@use "../gruvbox.scss";
 
 @mixin common {
-  color: white;
-  background: mocha.$base;
+  color: gruvbox.$fg;
+  background: gruvbox.$bg;
   border-width: 0px;
   box-shadow: none;
 
   &:hover {
-    color: mocha.$maroon;
-    background: mocha.$base;
+    color: gruvbox.$yellow;
+    background: gruvbox.$bg;
     box-shadow: none;
     label { 
       transition: color .3s ease-in-out;
-      color: mocha.$maroon;
+      color: gruvbox.$yellow;
     }
   }
   
