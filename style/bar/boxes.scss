@@ -8,12 +8,23 @@
   }
 
   .Tool-Box {
+    border: 1px solid gruvbox.$bg4;
     margin-top: 5px;
     background: gruvbox.$bg;
     border-radius: 20px;
   }
 
+  .Middle-Box {
+    border: 1px solid gruvbox.$bg4;
+    margin-top: 5px;
+    background: gruvbox.$bg;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+
   .left-box {
+    border: 1px solid gruvbox.$bg4;
+    border-left: 0px;
     margin-top: 5px;
     background: gruvbox.$bg;
     border-radius: 0px 20px 20px 0px;

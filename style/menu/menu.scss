@@ -16,7 +16,7 @@ window {
 
     highlight,
     progress {
-      background: gruvbox.$orange-dim;
+      background: gruvbox.$green-dim;
       border-radius: 10px;
     }
   }
@@ -27,13 +27,13 @@ window {
     background-color: transparent;
     min-height: 10px;
     min-width: 20px;
-    border: 5px solid transparent;
+    border: 4px solid transparent;
     border-radius: 30px;
   }
 
   &:hover {
     slider {
-      background: gruvbox.$orange;
+      background: gruvbox.$yellow;
     }
   }
 
@@ -45,20 +45,20 @@ window {
   border-radius: 10px;
 
   &:checked {
-    background: gruvbox.$yellow-dim;
+    background: gruvbox.$green-dim;
   }
 
   trough {
     highlight,
     progress {
-      background-color: gruvbox.$orange;
+      background-color: gruvbox.$green-dim;
       border-radius: 10px;
     }
   }
 
   slider {
     box-shadow: none;
-    background-color: gruvbox.$bg3;
+    background-color: gruvbox.$bg2;
     min-height: 1em;
     min-width: 1em;
     border: 0em solid transparent;
@@ -72,7 +72,7 @@ window {
     }
 
     slider {
-      background: gruvbox.$fg2;
+      background: gruvbox.$fg;
       box-shadow: none;
     }
   }
@@ -192,7 +192,7 @@ window {
 }
 
 .menu-label-dim {
-    color: gruvbox.$bg_h;
+    color: gruvbox.$bg;
     margin-right: 1rem;
     font-size: 1em;
     font-weight: bold;
@@ -273,6 +273,6 @@ window {
 
     scrollbar contents trough slider {
         border-radius: 10px;
-        background: gruvbox.$fg4;
+        background: gruvbox.$fg;
     }
 }

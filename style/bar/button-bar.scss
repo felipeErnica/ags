@@ -3,9 +3,11 @@
 @mixin common {
   background: gruvbox.$bg;
   color: gruvbox.$fg;
+  padding: 0px 10px;
+  border-width: 0px;
   label { font-weight: normal; }
   &:hover {
-    color: gruvbox.$yellow-dim;
+    color: gruvbox.$gray-dim;
     box-shadow: none;
     transition: color .3s ease-in-out;
     label { font-weight: bold; }

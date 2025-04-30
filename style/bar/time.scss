@@ -1,7 +1,6 @@
 @use "button-bar.scss";
 
-.time-button {
-  margin-top: 5px;
+.Time {
   border-radius: 20px;
   padding: 0px 20px 0px 20px;
   @include button-bar.common;

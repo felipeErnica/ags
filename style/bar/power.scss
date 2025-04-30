@@ -1,8 +1,12 @@
 @use "button-bar.scss";
+@use "../gruvbox.scss";
 
 .power-button {
-    @include button-bar.common;
-    margin-top: 5px;
-    margin-left: 30px;
-    border-radius: 20px 0px 0px 20px;
-  }
+  @include button-bar.common;
+  margin-top: 5px;
+  margin-left: 30px;
+  padding-right: 20px;
+  padding-left: 10px;
+  border: 1px solid gruvbox.$bg4;
+  border-radius: 20px 0px 0px 20px;
+}

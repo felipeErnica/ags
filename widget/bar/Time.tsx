@@ -7,14 +7,10 @@ export function Time() {
     
     const day = bind(time).as(time => time.format("%a, %d/%m/%Y  %H:%M") || "")
 
-    return <box
-        className="Time"
-        onDestroy={() => time.drop()}
-    >
-        <button 
-            className="time-button" 
+    return <button 
+            className="Time" 
             label={day}
+            onDestroy={() => time.drop()}
             onClick={() => App.toggle_window("calendarmenu")}
         />
-    </box>
 }

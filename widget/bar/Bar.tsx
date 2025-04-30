@@ -45,7 +45,7 @@ export default function Bar(monitor: Gdk.Monitor) {
                 <AppsButton />
                 <Workspaces />
             </box>
-            <box>
+            <box className="Middle-Box">
                 <Time />
             </box>
             <box className={"Right-Box"} halign={Gtk.Align.END} >
