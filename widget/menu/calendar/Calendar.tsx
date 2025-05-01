@@ -6,6 +6,7 @@ export default (): JSX.Element => {
     return (
         <DropdownMenu
             name={'calendarmenu'}
+            marginStart={700}
         >
             <box css={'padding: 1px; margin: -1px;'}>
                 <box className={'calendar-menu-content'} vexpand={false}>

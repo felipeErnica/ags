@@ -1,7 +1,7 @@
 import { bind } from 'astal';
 import { Gdk, Gtk } from 'astal/gtk3';
 import AstalWp from 'gi://AstalWp?version=0.1';
-import { capitalizeFirstLetter, isScrollDown, isScrollUp } from '../../../../../utils';
+import { capitalizeFirstLetter, isScrollDown, isScrollUp } from '@/utils';
 
 export const Slider = ({ device, type }: SliderProps): JSX.Element => {
     return (

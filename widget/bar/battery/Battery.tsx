@@ -1,6 +1,7 @@
 import { bind, Variable } from "astal"
 import AstalBattery from "gi://AstalBattery?version=0.1"
 import { notifyCriticalBattery, resetNotification } from "./helpers"
+import { App } from "astal/gtk3"
 
 const bat = AstalBattery.get_default()
 
@@ -48,6 +49,7 @@ export function BatteryLevel() {
         <button 
             className={bind(class_name).as(String)}
             tooltipText={bind(tooltip_text).as(String)}
+            onClick={() => App.toggle_window('batterymenu')}
         >
             <box>
                 <label className="battery-label" label={bind(bat, "percentage").as(p => `${Math.floor(p * 100)}%`)} />

@@ -2,9 +2,9 @@
 @use "button-bar.scss";
 
 @keyframes blink {
-    to {
-        color: gruvbox.$red;
-    }
+  to {
+    color: gruvbox.$red;
+  }
 }
 
 .battery-button {
@@ -13,20 +13,26 @@
   padding-right: 20px;
   margin-left: 10px;
 
-  &:hover {
-    color: white;
-  }
-
   &.charging {
     color: gruvbox.$green;
+
+    &:hover {
+      color: inherit;
+    }
+
   }
 
   &.critical {
     animation-name: blink;
-    animation-duration: 0.8s;
+    animation-duration: 0.5s;
     animation-timing-function: steps(10);
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
+    &:hover {
+      color: inherit;
+    }
+
   }
 
   .battery-label {
@@ -34,4 +40,3 @@
   }
 
 }
-

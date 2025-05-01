@@ -1,0 +1,63 @@
+@use '../gruvbox.scss';
+@use 'menu.scss';
+@use 'menu-button.scss';
+
+window#batterymenu {
+  all: unset
+}
+
+.menu-items.energy {
+  background: gruvbox.$bg;
+  border-color: gruvbox.$bg4;
+}
+
+.menu-items-container.energy {
+  min-width: 25em;
+  font-size: 1.25em;
+
+  .menu-items-section {
+    padding-bottom: 1.5em;
+  }
+
+  .menu-label {
+    color: gruvbox.$fg
+  }
+
+
+  .power-profile-item {
+    @include menu-button.common;
+
+    label {
+      padding-left: 10px;
+    }
+
+    .power-profile-icon {
+      font-size: 1em;
+      min-width: 1em;
+      min-height: 1em;
+      color: gruvbox.$fg2;
+    }
+
+    &.active {
+      color: gruvbox.$orange-dim;
+      .power-profile-icon { color: gruvbox.$orange; }
+    }
+
+    &:hover {
+      .power-profile-icon { color: gruvbox.$yellow; }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 0.5em;
+    }
+
+  }
+
+  .menu-label-container {
+    background: gruvbox.$bg;
+  }
+
+  .menu-items-section {
+    background: gruvbox.$bg;
+  }
+}

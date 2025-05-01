@@ -6,6 +6,7 @@ import NetworkMenu from "./widget/menu/network/NetworkMenu";
 import AudioMenu from "./widget/menu/audio/AudioMenu";
 import BluetoothMenu from "./widget/menu/bluetooth/BluetoothMenu";
 import Calendar from "./widget/menu/calendar/Calendar";
+import BatteryMenu from "./widget/menu/energy/BatteryMenu";
 
 App.start({
     css: main,
@@ -14,6 +15,7 @@ App.start({
         NetworkMenu()
         AudioMenu()
         BluetoothMenu()
+        BatteryMenu()
         Calendar()
         Applauncher()
     },

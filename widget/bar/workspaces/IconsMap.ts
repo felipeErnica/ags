@@ -23,17 +23,17 @@ export const icons_map = [
         ['floorp', '󰈹', 'Floorp'],
 
         // Terminals
-        ['kitty', '', 'Terminal'],
-        ['gnome-terminal', '', 'Terminal'],
-        ['konsole', '', 'Terminal'],
-        ['alacritty', '', 'Terminal'],
-        ['wezterm', '', 'Terminal'],
+        ['kitty', '', 'Terminal'],
+        ['gnome-terminal', '', 'Terminal'],
+        ['konsole', '', 'Terminal'],
+        ['alacritty', '', 'Terminal'],
+        ['wezterm', '', 'Terminal'],
         ['foot', '󰽒', 'Terminal'],
-        ['tilix', '', 'Terminal'],
-        ['xterm', '', 'Terminal'],
-        ['urxvt', '', 'Terminal'],
+        ['tilix', '', 'Terminal'],
+        ['xterm', '', 'Terminal'],
+        ['urxvt', '', 'Terminal'],
         ['com.mitchellh.ghostty', '󰊠', 'Terminal'],
-        ['st', '', 'Terminal'],
+        ['st', '', 'Terminal'],
 
         // Development Tools
         ['code', '󰨞', 'Visual Studio Code'],
