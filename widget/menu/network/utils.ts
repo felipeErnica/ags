@@ -46,7 +46,7 @@ export const DEVICE_STATES: DeviceStates = {
     [AstalNetwork.DeviceState.UNAVAILABLE]: 'Indisponível',
     [AstalNetwork.DeviceState.DISCONNECTED]: 'Desconectado',
     [AstalNetwork.DeviceState.PREPARE]: 'Preparar',
-    [AstalNetwork.DeviceState.CONFIG]: 'Config',
+    [AstalNetwork.DeviceState.CONFIG]: 'Configurando...',
     [AstalNetwork.DeviceState.NEED_AUTH]: 'Autenticação Necessária',
     [AstalNetwork.DeviceState.IP_CONFIG]: 'Configuração IP',
     [AstalNetwork.DeviceState.IP_CHECK]: 'Checagem de IP',

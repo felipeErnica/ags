@@ -17,6 +17,7 @@ export const AccessPoint = ({ connecting, accessPoint }: AccessPointProps): JSX.
             />
         );
     };
+    
     const ConnectionAccessPoint = (): JSX.Element => {
         return (
             <box className="connection-container" valign={Gtk.Align.CENTER} vertical hexpand>

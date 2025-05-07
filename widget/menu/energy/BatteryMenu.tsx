@@ -4,10 +4,7 @@ import { PowerProfiles } from "./profile/PowerProfiles";
 
 export default (): JSX.Element => {
     return (
-        <DropdownMenu
-            name={'batterymenu'}
-            marginStart={1400}
-        >
+        <DropdownMenu name={'batterymenu'} marginStart={1400} >
             <box className={'menu-items energy'} halign={Gtk.Align.FILL} hexpand>
                 <box className={'menu-items-container energy'} halign={Gtk.Align.FILL} hexpand vertical>
                     <PowerProfiles />

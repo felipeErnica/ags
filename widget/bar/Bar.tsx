@@ -39,7 +39,7 @@ export default function Bar(monitor: Gdk.Monitor) {
                 <button
                     className="arch-info-label" 
                     label="󰣇" 
-                    onClick="kitty --hold -e fastfetch"
+                    onClick="alacritty -e zsh -c fastfetch; exec zsh"
                 />
                 <SysInfo />
                 <AppsButton />
